@@ -1,0 +1,166 @@
+#preview{
+    border: 1px solid blue;
+}
+
+#loading {
+    display: none;
+}
+
+#data, #data_page2 {
+    border: 1px solid #f4f4f4;
+    background-color: #f4f4f4;
+    width: 700px;
+   
+}
+
+#main > button, #btn_save_data, #btn_add_data_page2, #btn_save_data_page2 {
+    margin-left: 4px;
+}
+
+button{
+  border-radius: 4px;
+}
+
+ol{
+  font-family: monospace;
+} 
+
+
+li {
+  margin: auto;
+  display: block;
+  width: 70%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  overflow: hidden;
+  padding: 0px 5px 0px 20px;
+  
+}
+
+
+.odd { 
+  
+  background-color: blue;
+
+}
+
+.even { 
+  background-color: rgb(255, 123, 0);
+
+}
+
+.delete_button {
+  float: right ;
+  cursor: pointer;
+  background-color: rgb(245, 76, 76);
+  width: 20%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 2px 10px 2px 10px;
+  font-weight: bold;
+  border: none;
+	outline: none;
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* .delete_data_page2 {
+  background-color: green;
+} */
+
+
+.delete_data:hover, .delete_data_page2:hover {
+background-color: #fa2525;
+}  
+
+.button__text, .button__icon{
+  display: inline;
+  align-items: center;
+  padding: 0 5px;
+	height: 100%;
+}
+.button__icon {
+	font-size: 1.0em;
+	background: rgba(2, 2, 2, 0.08);
+}
+
+.data_even{
+  background-color: #ccc;
+}
+
+#btn_demo_data_create, #btn_add_data, #btn_save_data, #btn_add_data_page2, #btn_save_data_page2{
+background-color: #057a4f; /* Green background */
+border: 1px solid green; /* Green border */
+color: white; /* White text */
+padding: 10px 24px; /* Some padding */
+cursor: pointer; /* Pointer/hand icon */
+float: left; /* Float the buttons side by side */
+}
+
+#btn_demo_data_create:hover {
+background-color: #3e8e41;
+}
+#btn_add_data:hover {
+background-color: #3e8e41;
+}
+
+#btn_save_data:hover {
+background-color: #3e8e41;
+}
+
+
+
+
+.pagination_prev_area > *, .pagination_num_area > *, .pagination_next_area > * ,
+.pagination_prev_area_page2 > *, .pagination_num_area_page2 > *, .pagination_next_area_page2 > * {
+display: inline-block;
+background-color: #5684e7; /* Green background */
+border: 1px solid rgb(74, 114, 189); /* Green border */
+color: white; /* White text */
+padding: 10px 20px; /*Some padding */
+cursor: pointer; /*Pointer/hand icon */
+
+}
+#pagination_buttons_area, #pagination_button_page2{
+margin: auto;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+
+}
+
+.pagination_prev_area, .pagination_prev_area_page2 {
+margin: 0px;
+}
+
+
+
+.pagination_num_area > *:hover, .pagination_next_area > *:hover,.pagination_prev_area > *:hover,
+.pagination_num_area_page2 > *:hover,.pagination_next_area_page2 > *:hover,.pagination_prev_area_page2 > *:hover,.active {
+background-color: #433e8b;
+}
+
+
+input[type=text] {
+width: 30%;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+
+background-position: 10px 10px; 
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;
+}
+

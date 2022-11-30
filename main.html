@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header >
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style/style.css">
+    
+  </header>
+<body>
+
+<script src="lib.js"></script>
+<script src="lib_page.js"></script>
+<script src="main.js"></script>
+<script src="paging.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+<form>
+  <input type="text" name="search" id="filter"  placeholder="Search.. " value="">
+
+</form>
+
+<pre id="preview">
+
+</pre>
+
+<div id="main">
+
+  <button id="btn_demo_data_create">create demo data</button> 
+
+  <br><br><br><br>
+  
+  <input type="text" name="in1" id="in1" value="input">
+  <br><br>
+  <button id="btn_add_data">Add</button>
+  <button id="btn_save_data">save</button>
+  <br><br>
+
+  <ol id="data" class="data" start=""></ol>
+  
+
+</div>
+<div class="pagination_button" id="pagination_buttons_area">
+  <div class="pagination_prev_area" id="pagination_prev_area"></div>
+  <div class="pagination_num_area" id="pagination_num_area"></div>
+  <div class="pagination_next_area" id="pagination_next_area"></div>
+</div>
+<br><br>
+
+<input type="text" name="in2" id="in2" value="input">
+<br><br>
+<button id="btn_add_data_page2">Add</button>
+<br><br>
+
+<ol id="data_page2" class="data_page2" start=""></ol>
+
+
+</div>
+<div class="pagination_button_page2" id="pagination_button_page2">
+  <div class="pagination_prev_area_page2" id="pagination_prev_area_page2"></div>
+  <div class="pagination_num_area_page2" id="pagination_num_area_page2"></div>
+  <div class="pagination_next_area_page2" id="pagination_next_area_page2"></div>
+</div>
+
+<div id="loading"></div>
+
+ 
+
+</body>
+</html>
+
+
