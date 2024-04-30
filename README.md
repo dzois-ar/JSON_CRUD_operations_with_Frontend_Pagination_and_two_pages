@@ -1,5 +1,5 @@
 # JSON_CRUD_operations_with_Frontend_Pagination_and-_two_-pages
-This app used JavaScript and PHP, to print add create and delete data from  JSON file and create two different page and two differently padination :computer:
+This app used JavaScript and PHP, to print add create and delete data from  JSON file and create two different page and two differently pagination :computer:
 
 ###### Run main.html
 :camera:  App Preview :
